@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>强制类型转换 | 困芽芽de空间</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    
+    <meta name="description" content="欢迎来到我的博客">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.b919d5c7.css" as="style"><link rel="preload" href="/blog/assets/js/app.1f0f9edc.js" as="script"><link rel="preload" href="/blog/assets/js/3.e2969245.js" as="script"><link rel="preload" href="/blog/assets/js/1.822b676f.js" as="script"><link rel="preload" href="/blog/assets/js/22.5517f151.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.b0473934.js"><link rel="prefetch" href="/blog/assets/js/11.0d584417.js"><link rel="prefetch" href="/blog/assets/js/12.0cb285c7.js"><link rel="prefetch" href="/blog/assets/js/13.090ade30.js"><link rel="prefetch" href="/blog/assets/js/14.961f3f15.js"><link rel="prefetch" href="/blog/assets/js/15.dcca16b5.js"><link rel="prefetch" href="/blog/assets/js/16.b4baf5db.js"><link rel="prefetch" href="/blog/assets/js/17.b77204be.js"><link rel="prefetch" href="/blog/assets/js/18.f8bfdc51.js"><link rel="prefetch" href="/blog/assets/js/19.66dcccf3.js"><link rel="prefetch" href="/blog/assets/js/20.e8fb3619.js"><link rel="prefetch" href="/blog/assets/js/21.29bb6495.js"><link rel="prefetch" href="/blog/assets/js/23.b9700367.js"><link rel="prefetch" href="/blog/assets/js/24.11bb44cd.js"><link rel="prefetch" href="/blog/assets/js/25.87f5d771.js"><link rel="prefetch" href="/blog/assets/js/26.6ea0a286.js"><link rel="prefetch" href="/blog/assets/js/27.041863b7.js"><link rel="prefetch" href="/blog/assets/js/28.d33f704e.js"><link rel="prefetch" href="/blog/assets/js/29.733bd310.js"><link rel="prefetch" href="/blog/assets/js/30.00bbeb9b.js"><link rel="prefetch" href="/blog/assets/js/31.65abc153.js"><link rel="prefetch" href="/blog/assets/js/32.553d51b4.js"><link rel="prefetch" href="/blog/assets/js/4.dfb79852.js"><link rel="prefetch" href="/blog/assets/js/5.0d04e110.js"><link rel="prefetch" href="/blog/assets/js/6.cae8eba3.js"><link rel="prefetch" href="/blog/assets/js/7.d62ce00d.js"><link rel="prefetch" href="/blog/assets/js/8.47513b0c.js"><link rel="prefetch" href="/blog/assets/js/9.3670e398.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.b919d5c7.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container" data-v-7dd95ae2><div data-v-7dd95ae2><div class="password-shadow password-wrapper-out" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>困芽芽de空间</h3> <p class="description" data-v-59e6cb88>欢迎来到我的博客</p> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>困芽芽</span>
+          
+        <!---->
+        2024
+      </a></span></div></div> <div class="hide" data-v-7dd95ae2><header class="navbar" data-v-7dd95ae2><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><img src="/blog/avatar.png" alt="困芽芽de空间" class="logo"> <span class="site-name">困芽芽de空间</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/" class="nav-link"><i class="iconfont reco-date"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/categories/blog/" class="nav-link"><i class="undefined"></i>
+  blog
+</a></li><li class="dropdown-item"><!----> <a href="/blog/categories/chart/" class="nav-link"><i class="undefined"></i>
+  chart
+</a></li><li class="dropdown-item"><!----> <a href="/blog/categories/css/" class="nav-link"><i class="undefined"></i>
+  css
+</a></li><li class="dropdown-item"><!----> <a href="/blog/categories/javascript/" class="nav-link"><i class="undefined"></i>
+  javascript
+</a></li><li class="dropdown-item"><!----> <a href="/blog/categories/tool/" class="nav-link"><i class="undefined"></i>
+  tool
+</a></li><li class="dropdown-item"><!----> <a href="/blog/categories/vite/" class="nav-link"><i class="undefined"></i>
+  vite
+</a></li><li class="dropdown-item"><!----> <a href="/blog/categories/vue2/" class="nav-link"><i class="undefined"></i>
+  vue2
+</a></li><li class="dropdown-item"><!----> <a href="/blog/categories/wx/" class="nav-link"><i class="undefined"></i>
+  wx
+</a></li><li class="dropdown-item"><!----> <a href="/blog/categories/vue3/" class="nav-link"><i class="undefined"></i>
+  vue3
+</a></li></ul></div></div><div class="nav-item"><a href="/blog/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  文章
+</a></div><div class="nav-item"><a href="https://github.com/fruitGirl" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-7dd95ae2></div> <aside class="sidebar" data-v-7dd95ae2><div class="personal-info-wrapper" data-v-1fad0c41 data-v-7dd95ae2><img src="/blog/avatar.png" alt="author-avatar" class="personal-img" data-v-1fad0c41> <h3 class="name" data-v-1fad0c41>
+    困芽芽
+  </h3> <div class="num" data-v-1fad0c41><div data-v-1fad0c41><h3 data-v-1fad0c41>22</h3> <h6 data-v-1fad0c41>Articles</h6></div> <div data-v-1fad0c41><h3 data-v-1fad0c41>9</h3> <h6 data-v-1fad0c41>Tags</h6></div></div> <ul class="social-links" data-v-1fad0c41><li class="social-item" data-v-1fad0c41><i class="iconfont reco-github" style="color:#67cc86;" data-v-1fad0c41></i></li><li class="social-item" data-v-1fad0c41><i class="iconfont reco-juejin" style="color:#f26d6d;" data-v-1fad0c41></i></li></ul> <hr data-v-1fad0c41></div> <nav class="nav-links"><div class="nav-item"><a href="/blog/" class="nav-link"><i class="iconfont reco-date"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blog/categories/blog/" class="nav-link"><i class="undefined"></i>
+  blog
+</a></li><li class="dropdown-item"><!----> <a href="/blog/categories/chart/" class="nav-link"><i class="undefined"></i>
+  chart
+</a></li><li class="dropdown-item"><!----> <a href="/blog/categories/css/" class="nav-link"><i class="undefined"></i>
+  css
+</a></li><li class="dropdown-item"><!----> <a href="/blog/categories/javascript/" class="nav-link"><i class="undefined"></i>
+  javascript
+</a></li><li class="dropdown-item"><!----> <a href="/blog/categories/tool/" class="nav-link"><i class="undefined"></i>
+  tool
+</a></li><li class="dropdown-item"><!----> <a href="/blog/categories/vite/" class="nav-link"><i class="undefined"></i>
+  vite
+</a></li><li class="dropdown-item"><!----> <a href="/blog/categories/vue2/" class="nav-link"><i class="undefined"></i>
+  vue2
+</a></li><li class="dropdown-item"><!----> <a href="/blog/categories/wx/" class="nav-link"><i class="undefined"></i>
+  wx
+</a></li><li class="dropdown-item"><!----> <a href="/blog/categories/vue3/" class="nav-link"><i class="undefined"></i>
+  vue3
+</a></li></ul></div></div><div class="nav-item"><a href="/blog/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  文章
+</a></div><div class="nav-item"><a href="https://github.com/fruitGirl" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav> <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>javascript</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/js/[设计模式]手写一个发布订阅模式.html" class="sidebar-link">设计模式-手写一个发布订阅模式</a></li><li><a href="/blog/js/对delete操作符知道多少？.html" class="sidebar-link">对delete操作符知道多少？</a></li><li><a href="/blog/js/数据类型.html" class="sidebar-link">数据类型</a></li><li><a href="/blog/js/强制类型转换.html" class="active sidebar-link">强制类型转换</a></li><li><a href="/blog/js/LHS和RHS.html" class="sidebar-link">LHS和RHS</a></li><li><a href="/blog/js/执行上下文和执行栈.html" class="sidebar-link">执行上下文和执行栈</a></li><li><a href="/blog/js/设计模式.html" class="sidebar-link">设计模式</a></li></ul></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>强制类型转换</h3> <!----> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>困芽芽</span>
+          
+        <!---->
+        2024
+      </a></span></div></div> <div data-v-7dd95ae2><div data-v-7dd95ae2><main class="page" style="padding-right:0;"><section style="display:;"><div class="page-title"><h1 class="title">强制类型转换</h1> <div data-v-8a445198><i class="iconfont reco-account" data-v-8a445198><span data-v-8a445198>qm</span></i> <i class="iconfont reco-date" data-v-8a445198><span data-v-8a445198>6/5/2018</span></i> <i class="iconfont reco-eye" data-v-8a445198><span id="/blog/js/%E5%BC%BA%E5%88%B6%E7%B1%BB%E5%9E%8B%E8%BD%AC%E6%8D%A2.html" data-flag-title="Your Article Title" class="leancloud-visitors" data-v-8a445198><a class="leancloud-visitors-count" style="font-size:.9rem;font-weight:normal;color:#999;"></a></span></i> <i class="tags iconfont reco-tag" data-v-8a445198><span class="tag-item" data-v-8a445198>javascript</span></i></div></div> <div class="theme-reco-content content__default"><blockquote><p><strong>值类型转换</strong></p></blockquote> <p>强制类型转换一般可分为两种形式：</p> <ul><li>一种是通过运算符强制类型转换。</li> <li>另一种是通过类型转换方法来进行转换。</li></ul> <p>例如</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>var a = '11';
+var b = a - 0; // 通过运算符转换类型
+var c = Number(a); // 通过方法转换类型
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><blockquote><p><strong>抽象值操作</strong></p></blockquote> <ol><li><strong>ToString</strong></li></ol> <ul><li>JSON字符串化（JSON.stringify()）它并不是强制类型转化。</li></ul> <p>作用：可以用一句话描述就是将一个json对象解析成json字符串。</p> <p>语法：</p> <blockquote><p>JSON.stringify(value[, replacer [, space]])</p></blockquote> <p>value: 将要序列化成一个JSON字符串的值</p> <p>replacer(可选)：如果该参数是一个数组，则只有包含这个数组中属性名才会被序列化到最终的JSON字符在传中；如果该参数是一个函数，则在该序列化中，被序列化的每个值都会经过该函数的处和转换。</p> <p>space(可选)：指定缩进用的空白字符串。如果参数是个数字，代表了多少个空格，上限是10.该值没有提供或者小于1，则是没有空格。如果是字符串，字符串将代替空格，上线也为10.</p> <p><strong>注意：</strong></p> <ul><li>[x] 布尔值、数字、字符串的包装对象在序列化过程中会自动转换成对应的原始值。</li> <li>[x] 对于所有安全JSON值都可以使用JSON.stringify()字符串化。</li> <li>[x] 不安全的JSON值：undefined、function、symbol和包含循环引用的对象都不符合JSON结构标准。</li> <li>[x] JSON.stringify()在对象遇到undefined、function以及symbol时会自动将其忽略，在数组中将会返回null（保证单元位置不变）</li> <li>[x] 如果传递给JSON.stringify()的对象中定义toJSON()方法，那么该方法会在字符串化前调用，以便将对象转换为安全的JSON值</li></ul> <p>不安全JSON示例：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>JSON.stringify(undefined); // undefined
+JSON.stringify(function(){}); // undefined
+JSON.stringify([1,undefined,function(){},4]); // &quot;[1,null,null,4]&quot; 数组中返回null
+JSON.stringify({ a:2, b:function(){}); // &quot;{&quot;a&quot;: 2}&quot;  在对象中遇到会自动忽略
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>replcer参数示例：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>var a = {
+ b: 42,
+ c: &quot;42&quot;,
+ d: [1,2,3]
+};
+JSON.stringify( a, [&quot;b&quot;,&quot;c&quot;] ); // &quot;{&quot;b&quot;:42,&quot;c&quot;:&quot;42&quot;}&quot;
+JSON.stringify( a, function(k,v){
+ if (k !== &quot;c&quot;) return v;
+} );
+// &quot;{&quot;b&quot;:42,&quot;d&quot;:[1,2,3]}&quot;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br></div></div><p>space参数示例</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>JSON.stringify( a, null, 3 );
+// &quot;{
+// &quot;b&quot;: 42,
+// &quot;c&quot;: &quot;42&quot;,
+// &quot;d&quot;: [
+// 1,
+// 2,
+// 3
+// ]
+// }&quot;
+JSON.stringify( a, null, &quot;-----&quot; );
+// &quot;{
+// -----&quot;b&quot;: 42,
+// -----&quot;c&quot;: &quot;42&quot;,
+// -----&quot;d&quot;: [
+// ----------1,
+// ----------2,
+// ----------3
+// -----]
+// }&quot;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br></div></div><p>2.ToNumber(Number方法)</p> <blockquote><p>语法  Number(object)</p></blockquote> <p>作用： 把对象的值转换为数字</p> <p>注意： 对象（包括数组）会首先被转换为相应的基本类型值，如果返回的是非数字的基本类型
+值，则再遵循以上规则将其强制转换为数字。如果 valueOf() 和 toString() 均不返回基本类型值，会产生 TypeError 错误。</p> <table><thead><tr><th>变量</th> <th>转化之后的值</th></tr></thead> <tbody><tr><td>true</td> <td>1</td></tr> <tr><td>false</td> <td>0</td></tr> <tr><td>undefined</td> <td>NAN</td></tr> <tr><td>null</td> <td>0</td></tr> <tr><td>字符串</td> <td>NAN</td></tr></tbody></table> <p>3.toBoolean</p> <ul><li>假值列表：undefined、null、false、&quot;&quot;、NAN、+0、-0</li> <li>真值列表：不在假值列表的都是true</li></ul> <p>例如</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>var a = [];
+var b = {}; 
+var c = function(){}; 
+var d = Boolean( a &amp;&amp; b &amp;&amp; c );
+d; // true []、{}、function(){}都为true
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>4.显示强制类型转换</p> <ul><li>一元运算符</li></ul> <p>日期显示转换为数字：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>var d = new Date( &quot;Mon, 18 Aug 2014 08:53:06 CDT&quot; );
++d; // 1408369986000
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>获取时间戳方法</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>var timestamp = new Date().getTime();
+var timestamp = Date.now();
+var timestamp = +new Date(); // 缺点就是代码可读性不高。不建议对日期类型使用强制类型转换
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><ul><li>字位截除</li></ul> <p>~~来截除数字值的小数部分。但是他与和 Math.floor(..)是有区别的</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>Math.floor( -49.6 ); // -50 它是向下取整
+~~-49.6; // -49 // 这个是直接截取.后面的
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><blockquote><p>显示解析数字字符串</p></blockquote> <p>parseInt的坑：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>var hour = parseInt( selectedHour.value );
+var minute = parseInt( selectedMinute.value );
+console.log(
+ &quot;The time you selected was: &quot; + hour + &quot;:&quot; + minute
+);
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p>上面的代码看似没有问题，但是当小时为 08、分钟为 09 时，结果是 0:0，因为 8 和 9 都不
+是有效的八进制数。</p> <p>将第二个参数设置为 10，即可避免这个问题：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>var hour = parseInt( selectedHour.value, 10 );
+var minute = parseInt( selectedMiniute.value, 10 );
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><p>此外还有一些看起来奇怪但实际上解释得通的例子：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>parseInt( 0.000008 ); // 0 (&quot;0&quot; 来自于 &quot;0.000008&quot;)
+parseInt( 0.0000008 ); // 8 (&quot;8&quot; 来自于 &quot;8e-7&quot;)
+parseInt( false, 16 ); // 250 (&quot;fa&quot; 来自于 &quot;false&quot;)
+parseInt( parseInt, 16 ); // 15 (&quot;f&quot; 来自于 &quot;function..&quot;)
+parseInt( &quot;0x10&quot; ); // 16
+parseInt( &quot;103&quot;, 2 ); // 2
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div></div></section> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev"><a href="/blog/js/数据类型.html" class="prev">
+          数据类型
+        </a></span> <span class="next"><a href="/blog/js/LHS和RHS.html">
+          LHS和RHS
+        </a></span></p></div> <div class="comments-wrapper"><!----></div></main></div> <!----></div> <ul class="sub-sidebar sub-sidebar-wrapper" style="width:0;" data-v-b57cc07c data-v-7dd95ae2></ul></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div><canvas id="vuepress-canvas-cursor"></canvas><canvas id="vuepress-canvas-ribbon"></canvas><div class="kanbanniang" data-v-5775ee02><div class="banniang-container" style="display:;" data-v-5775ee02><div class="messageBox" style="right:68px;bottom:190px;display:none;" data-v-5775ee02>
+      欢迎来到困芽芽的小空间
+    </div> <div class="operation" style="right:90px;bottom:40px;display:;" data-v-5775ee02><i class="kbnfont kbn-ban-home ban-home" data-v-5775ee02></i> <i class="kbnfont kbn-ban-message message" data-v-5775ee02></i> <i class="kbnfont kbn-ban-close close" data-v-5775ee02></i> <a target="_blank" href="https://vuepress-theme-reco.recoluan.com/views/plugins/kanbanniang.html" data-v-5775ee02><i class="kbnfont kbn-ban-info info" data-v-5775ee02></i></a> <i class="kbnfont kbn-ban-theme skin" style="display:none;" data-v-5775ee02></i></div> <canvas id="banniang" width="150" height="220" class="live2d" style="right:90px;bottom:-20px;opacity:0.9;" data-v-5775ee02></canvas></div> <div class="showBanNiang" style="display:none;" data-v-5775ee02>
+    看板娘
+  </div></div></div></div>
+    <script src="/blog/assets/js/app.1f0f9edc.js" defer></script><script src="/blog/assets/js/3.e2969245.js" defer></script><script src="/blog/assets/js/1.822b676f.js" defer></script><script src="/blog/assets/js/22.5517f151.js" defer></script>
+  </body>
+</html>
